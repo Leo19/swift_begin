@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486C31501BCE5E1E00B6C55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C314F1BCE5E1E00B6C55B /* AppDelegate.swift */; };
+		486C31521BCE5E1E00B6C55B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C31511BCE5E1E00B6C55B /* ViewController.swift */; };
+		486C31551BCE5E1E00B6C55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486C31531BCE5E1E00B6C55B /* Main.storyboard */; };
+		486C31571BCE5E1E00B6C55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486C31561BCE5E1E00B6C55B /* Assets.xcassets */; };
+		486C315A1BCE5E1E00B6C55B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486C31581BCE5E1E00B6C55B /* LaunchScreen.storyboard */; };
+		486C31651BCE5E1E00B6C55B /* JieTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C31641BCE5E1E00B6C55B /* JieTableViewTests.swift */; };
+		486C31701BCE5E1E00B6C55B /* JieTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C316F1BCE5E1E00B6C55B /* JieTableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486C31611BCE5E1E00B6C55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486C31441BCE5E1E00B6C55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486C314B1BCE5E1E00B6C55B;
+			remoteInfo = JieTableView;
+		};
+		486C316C1BCE5E1E00B6C55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486C31441BCE5E1E00B6C55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486C314B1BCE5E1E00B6C55B;
+			remoteInfo = JieTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		486C314C1BCE5E1E00B6C55B /* JieTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JieTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486C314F1BCE5E1E00B6C55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		486C31511BCE5E1E00B6C55B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		486C31541BCE5E1E00B6C55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		486C31561BCE5E1E00B6C55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486C31591BCE5E1E00B6C55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		486C315B1BCE5E1E00B6C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486C31601BCE5E1E00B6C55B /* JieTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486C31641BCE5E1E00B6C55B /* JieTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieTableViewTests.swift; sourceTree = "<group>"; };
+		486C31661BCE5E1E00B6C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486C316B1BCE5E1E00B6C55B /* JieTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486C316F1BCE5E1E00B6C55B /* JieTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieTableViewUITests.swift; sourceTree = "<group>"; };
+		486C31711BCE5E1E00B6C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486C31491BCE5E1E00B6C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C315D1BCE5E1E00B6C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C31681BCE5E1E00B6C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486C31431BCE5E1D00B6C55B = {
+			isa = PBXGroup;
+			children = (
+				486C314E1BCE5E1E00B6C55B /* JieTableView */,
+				486C31631BCE5E1E00B6C55B /* JieTableViewTests */,
+				486C316E1BCE5E1E00B6C55B /* JieTableViewUITests */,
+				486C314D1BCE5E1E00B6C55B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		486C314D1BCE5E1E00B6C55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486C314C1BCE5E1E00B6C55B /* JieTableView.app */,
+				486C31601BCE5E1E00B6C55B /* JieTableViewTests.xctest */,
+				486C316B1BCE5E1E00B6C55B /* JieTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486C314E1BCE5E1E00B6C55B /* JieTableView */ = {
+			isa = PBXGroup;
+			children = (
+				486C314F1BCE5E1E00B6C55B /* AppDelegate.swift */,
+				486C31511BCE5E1E00B6C55B /* ViewController.swift */,
+				486C31531BCE5E1E00B6C55B /* Main.storyboard */,
+				486C31561BCE5E1E00B6C55B /* Assets.xcassets */,
+				486C31581BCE5E1E00B6C55B /* LaunchScreen.storyboard */,
+				486C315B1BCE5E1E00B6C55B /* Info.plist */,
+			);
+			path = JieTableView;
+			sourceTree = "<group>";
+		};
+		486C31631BCE5E1E00B6C55B /* JieTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				486C31641BCE5E1E00B6C55B /* JieTableViewTests.swift */,
+				486C31661BCE5E1E00B6C55B /* Info.plist */,
+			);
+			path = JieTableViewTests;
+			sourceTree = "<group>";
+		};
+		486C316E1BCE5E1E00B6C55B /* JieTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				486C316F1BCE5E1E00B6C55B /* JieTableViewUITests.swift */,
+				486C31711BCE5E1E00B6C55B /* Info.plist */,
+			);
+			path = JieTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486C314B1BCE5E1E00B6C55B /* JieTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486C31741BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableView" */;
+			buildPhases = (
+				486C31481BCE5E1E00B6C55B /* Sources */,
+				486C31491BCE5E1E00B6C55B /* Frameworks */,
+				486C314A1BCE5E1E00B6C55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JieTableView;
+			productName = JieTableView;
+			productReference = 486C314C1BCE5E1E00B6C55B /* JieTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		486C315F1BCE5E1E00B6C55B /* JieTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486C31771BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableViewTests" */;
+			buildPhases = (
+				486C315C1BCE5E1E00B6C55B /* Sources */,
+				486C315D1BCE5E1E00B6C55B /* Frameworks */,
+				486C315E1BCE5E1E00B6C55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486C31621BCE5E1E00B6C55B /* PBXTargetDependency */,
+			);
+			name = JieTableViewTests;
+			productName = JieTableViewTests;
+			productReference = 486C31601BCE5E1E00B6C55B /* JieTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		486C316A1BCE5E1E00B6C55B /* JieTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486C317A1BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableViewUITests" */;
+			buildPhases = (
+				486C31671BCE5E1E00B6C55B /* Sources */,
+				486C31681BCE5E1E00B6C55B /* Frameworks */,
+				486C31691BCE5E1E00B6C55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486C316D1BCE5E1E00B6C55B /* PBXTargetDependency */,
+			);
+			name = JieTableViewUITests;
+			productName = JieTableViewUITests;
+			productReference = 486C316B1BCE5E1E00B6C55B /* JieTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486C31441BCE5E1E00B6C55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = liushun;
+				TargetAttributes = {
+					486C314B1BCE5E1E00B6C55B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					486C315F1BCE5E1E00B6C55B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 486C314B1BCE5E1E00B6C55B;
+					};
+					486C316A1BCE5E1E00B6C55B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 486C314B1BCE5E1E00B6C55B;
+					};
+				};
+			};
+			buildConfigurationList = 486C31471BCE5E1E00B6C55B /* Build configuration list for PBXProject "JieTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486C31431BCE5E1D00B6C55B;
+			productRefGroup = 486C314D1BCE5E1E00B6C55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486C314B1BCE5E1E00B6C55B /* JieTableView */,
+				486C315F1BCE5E1E00B6C55B /* JieTableViewTests */,
+				486C316A1BCE5E1E00B6C55B /* JieTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486C314A1BCE5E1E00B6C55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486C315A1BCE5E1E00B6C55B /* LaunchScreen.storyboard in Resources */,
+				486C31571BCE5E1E00B6C55B /* Assets.xcassets in Resources */,
+				486C31551BCE5E1E00B6C55B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C315E1BCE5E1E00B6C55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C31691BCE5E1E00B6C55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486C31481BCE5E1E00B6C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486C31521BCE5E1E00B6C55B /* ViewController.swift in Sources */,
+				486C31501BCE5E1E00B6C55B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C315C1BCE5E1E00B6C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486C31651BCE5E1E00B6C55B /* JieTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486C31671BCE5E1E00B6C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486C31701BCE5E1E00B6C55B /* JieTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		486C31621BCE5E1E00B6C55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486C314B1BCE5E1E00B6C55B /* JieTableView */;
+			targetProxy = 486C31611BCE5E1E00B6C55B /* PBXContainerItemProxy */;
+		};
+		486C316D1BCE5E1E00B6C55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486C314B1BCE5E1E00B6C55B /* JieTableView */;
+			targetProxy = 486C316C1BCE5E1E00B6C55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		486C31531BCE5E1E00B6C55B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486C31541BCE5E1E00B6C55B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		486C31581BCE5E1E00B6C55B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486C31591BCE5E1E00B6C55B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486C31721BCE5E1E00B6C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		486C31731BCE5E1E00B6C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486C31751BCE5E1E00B6C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JieTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		486C31761BCE5E1E00B6C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JieTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		486C31781BCE5E1E00B6C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JieTableView.app/JieTableView";
+			};
+			name = Debug;
+		};
+		486C31791BCE5E1E00B6C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JieTableView.app/JieTableView";
+			};
+			name = Release;
+		};
+		486C317B1BCE5E1E00B6C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JieTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		486C317C1BCE5E1E00B6C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.JieTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JieTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486C31471BCE5E1E00B6C55B /* Build configuration list for PBXProject "JieTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486C31721BCE5E1E00B6C55B /* Debug */,
+				486C31731BCE5E1E00B6C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486C31741BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486C31751BCE5E1E00B6C55B /* Debug */,
+				486C31761BCE5E1E00B6C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		486C31771BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486C31781BCE5E1E00B6C55B /* Debug */,
+				486C31791BCE5E1E00B6C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		486C317A1BCE5E1E00B6C55B /* Build configuration list for PBXNativeTarget "JieTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486C317B1BCE5E1E00B6C55B /* Debug */,
+				486C317C1BCE5E1E00B6C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486C31441BCE5E1E00B6C55B /* Project object */;
+}

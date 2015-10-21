@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485898F41BD0DCEA007EAB92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485898F31BD0DCEA007EAB92 /* AppDelegate.swift */; };
+		485898F61BD0DCEA007EAB92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485898F51BD0DCEA007EAB92 /* ViewController.swift */; };
+		485898F91BD0DCEA007EAB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485898F71BD0DCEA007EAB92 /* Main.storyboard */; };
+		485898FB1BD0DCEA007EAB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485898FA1BD0DCEA007EAB92 /* Assets.xcassets */; };
+		485898FE1BD0DCEA007EAB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485898FC1BD0DCEA007EAB92 /* LaunchScreen.storyboard */; };
+		485899091BD0DCEA007EAB92 /* HanggeWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485899081BD0DCEA007EAB92 /* HanggeWebViewTests.swift */; };
+		485899141BD0DCEA007EAB92 /* HanggeWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485899131BD0DCEA007EAB92 /* HanggeWebViewUITests.swift */; };
+		485899221BD0F96F007EAB92 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 485899211BD0F96F007EAB92 /* stop.png */; settings = {ASSET_TAGS = (); }; };
+		485899241BD0F979007EAB92 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 485899231BD0F979007EAB92 /* reload.png */; settings = {ASSET_TAGS = (); }; };
+		485899261BD0F97F007EAB92 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 485899251BD0F97F007EAB92 /* forward.png */; settings = {ASSET_TAGS = (); }; };
+		485899281BD0F98A007EAB92 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 485899271BD0F98A007EAB92 /* back.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485899051BD0DCEA007EAB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485898E81BD0DCEA007EAB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485898EF1BD0DCEA007EAB92;
+			remoteInfo = HanggeWebView;
+		};
+		485899101BD0DCEA007EAB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485898E81BD0DCEA007EAB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485898EF1BD0DCEA007EAB92;
+			remoteInfo = HanggeWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485898F01BD0DCEA007EAB92 /* HanggeWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanggeWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485898F31BD0DCEA007EAB92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485898F51BD0DCEA007EAB92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485898F81BD0DCEA007EAB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485898FA1BD0DCEA007EAB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485898FD1BD0DCEA007EAB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485898FF1BD0DCEA007EAB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485899041BD0DCEA007EAB92 /* HanggeWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanggeWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485899081BD0DCEA007EAB92 /* HanggeWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanggeWebViewTests.swift; sourceTree = "<group>"; };
+		4858990A1BD0DCEA007EAB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4858990F1BD0DCEA007EAB92 /* HanggeWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanggeWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485899131BD0DCEA007EAB92 /* HanggeWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanggeWebViewUITests.swift; sourceTree = "<group>"; };
+		485899151BD0DCEA007EAB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485899211BD0F96F007EAB92 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = ../temp/stop.png; sourceTree = "<group>"; };
+		485899231BD0F979007EAB92 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reload.png; path = ../temp/reload.png; sourceTree = "<group>"; };
+		485899251BD0F97F007EAB92 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = ../temp/forward.png; sourceTree = "<group>"; };
+		485899271BD0F98A007EAB92 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../temp/back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485898ED1BD0DCEA007EAB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485899011BD0DCEA007EAB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4858990C1BD0DCEA007EAB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485898E71BD0DCEA007EAB92 = {
+			isa = PBXGroup;
+			children = (
+				485899271BD0F98A007EAB92 /* back.png */,
+				485899251BD0F97F007EAB92 /* forward.png */,
+				485899231BD0F979007EAB92 /* reload.png */,
+				485899211BD0F96F007EAB92 /* stop.png */,
+				485898F21BD0DCEA007EAB92 /* HanggeWebView */,
+				485899071BD0DCEA007EAB92 /* HanggeWebViewTests */,
+				485899121BD0DCEA007EAB92 /* HanggeWebViewUITests */,
+				485898F11BD0DCEA007EAB92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485898F11BD0DCEA007EAB92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485898F01BD0DCEA007EAB92 /* HanggeWebView.app */,
+				485899041BD0DCEA007EAB92 /* HanggeWebViewTests.xctest */,
+				4858990F1BD0DCEA007EAB92 /* HanggeWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485898F21BD0DCEA007EAB92 /* HanggeWebView */ = {
+			isa = PBXGroup;
+			children = (
+				485898F31BD0DCEA007EAB92 /* AppDelegate.swift */,
+				485898F51BD0DCEA007EAB92 /* ViewController.swift */,
+				485898F71BD0DCEA007EAB92 /* Main.storyboard */,
+				485898FA1BD0DCEA007EAB92 /* Assets.xcassets */,
+				485898FC1BD0DCEA007EAB92 /* LaunchScreen.storyboard */,
+				485898FF1BD0DCEA007EAB92 /* Info.plist */,
+			);
+			path = HanggeWebView;
+			sourceTree = "<group>";
+		};
+		485899071BD0DCEA007EAB92 /* HanggeWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				485899081BD0DCEA007EAB92 /* HanggeWebViewTests.swift */,
+				4858990A1BD0DCEA007EAB92 /* Info.plist */,
+			);
+			path = HanggeWebViewTests;
+			sourceTree = "<group>";
+		};
+		485899121BD0DCEA007EAB92 /* HanggeWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485899131BD0DCEA007EAB92 /* HanggeWebViewUITests.swift */,
+				485899151BD0DCEA007EAB92 /* Info.plist */,
+			);
+			path = HanggeWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485898EF1BD0DCEA007EAB92 /* HanggeWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485899181BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebView" */;
+			buildPhases = (
+				485898EC1BD0DCEA007EAB92 /* Sources */,
+				485898ED1BD0DCEA007EAB92 /* Frameworks */,
+				485898EE1BD0DCEA007EAB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanggeWebView;
+			productName = HanggeWebView;
+			productReference = 485898F01BD0DCEA007EAB92 /* HanggeWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485899031BD0DCEA007EAB92 /* HanggeWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4858991B1BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebViewTests" */;
+			buildPhases = (
+				485899001BD0DCEA007EAB92 /* Sources */,
+				485899011BD0DCEA007EAB92 /* Frameworks */,
+				485899021BD0DCEA007EAB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485899061BD0DCEA007EAB92 /* PBXTargetDependency */,
+			);
+			name = HanggeWebViewTests;
+			productName = HanggeWebViewTests;
+			productReference = 485899041BD0DCEA007EAB92 /* HanggeWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4858990E1BD0DCEA007EAB92 /* HanggeWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4858991E1BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebViewUITests" */;
+			buildPhases = (
+				4858990B1BD0DCEA007EAB92 /* Sources */,
+				4858990C1BD0DCEA007EAB92 /* Frameworks */,
+				4858990D1BD0DCEA007EAB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485899111BD0DCEA007EAB92 /* PBXTargetDependency */,
+			);
+			name = HanggeWebViewUITests;
+			productName = HanggeWebViewUITests;
+			productReference = 4858990F1BD0DCEA007EAB92 /* HanggeWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485898E81BD0DCEA007EAB92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = liushun;
+				TargetAttributes = {
+					485898EF1BD0DCEA007EAB92 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					485899031BD0DCEA007EAB92 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 485898EF1BD0DCEA007EAB92;
+					};
+					4858990E1BD0DCEA007EAB92 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 485898EF1BD0DCEA007EAB92;
+					};
+				};
+			};
+			buildConfigurationList = 485898EB1BD0DCEA007EAB92 /* Build configuration list for PBXProject "HanggeWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485898E71BD0DCEA007EAB92;
+			productRefGroup = 485898F11BD0DCEA007EAB92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485898EF1BD0DCEA007EAB92 /* HanggeWebView */,
+				485899031BD0DCEA007EAB92 /* HanggeWebViewTests */,
+				4858990E1BD0DCEA007EAB92 /* HanggeWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485898EE1BD0DCEA007EAB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485898FE1BD0DCEA007EAB92 /* LaunchScreen.storyboard in Resources */,
+				485899221BD0F96F007EAB92 /* stop.png in Resources */,
+				485898FB1BD0DCEA007EAB92 /* Assets.xcassets in Resources */,
+				485899261BD0F97F007EAB92 /* forward.png in Resources */,
+				485899281BD0F98A007EAB92 /* back.png in Resources */,
+				485898F91BD0DCEA007EAB92 /* Main.storyboard in Resources */,
+				485899241BD0F979007EAB92 /* reload.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485899021BD0DCEA007EAB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4858990D1BD0DCEA007EAB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485898EC1BD0DCEA007EAB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485898F61BD0DCEA007EAB92 /* ViewController.swift in Sources */,
+				485898F41BD0DCEA007EAB92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485899001BD0DCEA007EAB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485899091BD0DCEA007EAB92 /* HanggeWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4858990B1BD0DCEA007EAB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485899141BD0DCEA007EAB92 /* HanggeWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485899061BD0DCEA007EAB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485898EF1BD0DCEA007EAB92 /* HanggeWebView */;
+			targetProxy = 485899051BD0DCEA007EAB92 /* PBXContainerItemProxy */;
+		};
+		485899111BD0DCEA007EAB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485898EF1BD0DCEA007EAB92 /* HanggeWebView */;
+			targetProxy = 485899101BD0DCEA007EAB92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		485898F71BD0DCEA007EAB92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485898F81BD0DCEA007EAB92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485898FC1BD0DCEA007EAB92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485898FD1BD0DCEA007EAB92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485899161BD0DCEA007EAB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485899171BD0DCEA007EAB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485899191BD0DCEA007EAB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HanggeWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4858991A1BD0DCEA007EAB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HanggeWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4858991C1BD0DCEA007EAB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HanggeWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanggeWebView.app/HanggeWebView";
+			};
+			name = Debug;
+		};
+		4858991D1BD0DCEA007EAB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HanggeWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanggeWebView.app/HanggeWebView";
+			};
+			name = Release;
+		};
+		4858991F1BD0DCEA007EAB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HanggeWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HanggeWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		485899201BD0DCEA007EAB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HanggeWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hc360.HanggeWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HanggeWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485898EB1BD0DCEA007EAB92 /* Build configuration list for PBXProject "HanggeWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485899161BD0DCEA007EAB92 /* Debug */,
+				485899171BD0DCEA007EAB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485899181BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485899191BD0DCEA007EAB92 /* Debug */,
+				4858991A1BD0DCEA007EAB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4858991B1BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4858991C1BD0DCEA007EAB92 /* Debug */,
+				4858991D1BD0DCEA007EAB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4858991E1BD0DCEA007EAB92 /* Build configuration list for PBXNativeTarget "HanggeWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4858991F1BD0DCEA007EAB92 /* Debug */,
+				485899201BD0DCEA007EAB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485898E81BD0DCEA007EAB92 /* Project object */;
+}
