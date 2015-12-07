@@ -50,6 +50,33 @@ for value in values{
     print(value)
 }
 
+// 数字中文字典
+let numName = [
+    0: "零",
+    1: "一",
+    2: "二",
+    3: "三",
+    4: "四",
+    5: "五",
+    6: "六",
+    7: "七",
+    8: "八",
+    9: "九"
+]
+// 阿拉伯数字
+let arabNum = [17,58,79,147,14178,100]
+arabNum.map(){
+    var t = $0
+    var dest = ""
+    while t > 0{
+        dest = numName[t % 10]! + dest
+        t /= 10
+    }
+    print(dest)
+}
+
+
+
 // 更新，第二个更新是会返回一个Optional结果用于判断是否更新成功的
 dics["NNN"] = "军用机场"
 print(dics["NNN"])
@@ -88,6 +115,11 @@ let fruits2 = fruits.map({
     (String fn) in
     fn.lowercaseString.characters.reverse()
 })
+
+
+
+let sortedFruits = fruits.sort({$0 <= $1})
+print(sortedFruits[0])
 
 
 
