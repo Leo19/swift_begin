@@ -1,5 +1,5 @@
 //: Playground - noun: a place where people can play
-
+import Foundation
 
 let fruits = ["orange","apple","grape","peach",""]
 
@@ -122,12 +122,50 @@ let sortedFruits = fruits.sort({$0 <= $1})
 print(sortedFruits[0])
 
 
+var strArray = [String]()
+strArray.append("one")
+strArray.append("two")
+strArray.append("three")
+
+// $0 是返回值 $1是元素，如果元素是对象需要操作对象里的属性，用enumerate
+// 此时$1是一个对象，可以对其属性进行操作
+let result = strArray.enumerate().reduce("", combine: {
+    $0 + $1.element
+})
+print(result)
+
+// reduce("" 双引号代表返回值的类型，不要写String Xcode7.2 在此会报错
+let reverseResult = strArray.reduce("", combine: {
+    $1 + $0
+})
+print(reverseResult)
 
 
+// 存储属性都赋值了所以会有一个默认的按顺序构造器
+class ChecklistItem {
+    var text = ""
+    var checked = false
+    
+    init(text: String,checked: Bool){
+        self.text = text
+        self.checked = checked
+    }
+}
 
-
-
-
+// 给数组几个值
+var items = [ChecklistItem]()
+var item = ChecklistItem(text: "LoL",checked: true)
+items.append(ChecklistItem(text: "WoW",checked: false))
+items.append(ChecklistItem(text: "VoV",checked: true))
+func countUncheckedItems() -> Int{
+    // 操作对象，第一要用enumerate()第二要用$1.element 返回值要写0
+    let result = items.enumerate().reduce(0, combine: {
+        $0 + ($1.element.checked ? 0 : 1)
+    })
+    
+    print(result)
+    return result
+}
 
 
 
