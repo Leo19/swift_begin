@@ -1,4 +1,5 @@
 //: Playground - noun: a place where people can play
+// Leo)Xcode 7.2
 import Foundation
 
 let fruits = ["orange","apple","grape","peach",""]
@@ -112,10 +113,10 @@ print(fruits1)
 // 非匿名闭包,这里就不能再用$0了
 let chars = "c"
 let fruits2 = fruits.map({
+    
     (String fn) in
     fn.lowercaseString.characters.reverse()
 })
-
 
 
 let sortedFruits = fruits.sort({$0 <= $1})
@@ -140,6 +141,17 @@ let reverseResult = strArray.reduce("", combine: {
 })
 print(reverseResult)
 
+// 也可以做更复杂的操作
+let sophisticatedString = strArray.enumerate().reduce("", combine: {
+    $0 + $1.element + ($1.index < strArray.endIndex-1 ? "，":"")
+})
+print(sophisticatedString)
+
+// 遍历每一个元素，返回类型和调用它的数组类型一样
+let flatString = strArray.flatMap({
+    $0 + "---"
+})
+print(flatString)
 
 // 存储属性都赋值了所以会有一个默认的按顺序构造器
 class ChecklistItem {
@@ -155,32 +167,66 @@ class ChecklistItem {
 // 给数组几个值
 var items = [ChecklistItem]()
 var item = ChecklistItem(text: "LoL",checked: true)
-items.append(ChecklistItem(text: "WoW",checked: false))
+items.append(item)
+items.append(ChecklistItem(text: "WoW",checked: true))
 items.append(ChecklistItem(text: "VoV",checked: true))
 func countUncheckedItems() -> Int{
     // 操作对象，第一要用enumerate()第二要用$1.element 返回值要写0
     let result = items.enumerate().reduce(0, combine: {
-        $0 + ($1.element.checked ? 0 : 1)
+        // $0 是返回结果 $1是元素
+        $0 + ($1.element.checked ? 1 : 0)
     })
     
-    print(result)
     return result
 }
+countUncheckedItems()
 
+// flatMap比较简单，闭包里也不要做太复杂的操作
+let nestedArray = [[1,2,3],[6,7,8],[9]]
+let flattened = nestedArray.flatMap{$0}
+print(flattened)
 
+// reduce功能很强大，但是能用简单的就用简单的
+let reduced = nestedArray.reduce([], combine: {
+    $0 + $1
+})
+print(reduced)
 
+// 将optional的数组转化成非optional的是flatMap擅长的
+let optionalArray:[Int?] = [6,nil,7,nil,8]
+let non_op = optionalArray.flatMap({
+    // 不能写 $0 != nil 否则返回Bool数组了
+    $0
+})
 
+print(non_op)
 
+// filter 只做过滤返回值仍然是optinal的
+let stillOptional = optionalArray.filter({
+    $0 != nil
+})
+print(stillOptional)
 
+// 这段是推特上一位朋友写的更加复杂也更简略的代码
+let newDict = ["a":"b"].reduce(["c":"d"], combine: {
+    (var dict,var pair) in
+    // 其实是个trick，等于dict["a"]="b"
+    dict[pair.0] = pair.1
+    return dict
+})
 
-
-
-
-
-
-
-
-
+// 再次证明了 $0 是返回值 $1 是参数其实
+let doubleArray = [1,4].reduce([Int](), combine: {
+    (var ret,param) in ret.append(param)
+    // 重点在这里，嵌套了一个map()
+    ret = ret.map{$0 * 2}
+    return ret
+})
+print(doubleArray)
+/*===================== 结论 ===================*/
+/*如果有一个数组需要给每一个元素加前缀或后缀用flatMap()*/
+/*如果有一个嵌套的或者对象类型的数组有可能要一次性的在值的*/
+/*前后做操作就用reduce()如果将其他值和数值或数组合并就用join()*/
 
 
 
