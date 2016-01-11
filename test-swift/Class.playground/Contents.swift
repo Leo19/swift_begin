@@ -245,8 +245,6 @@ lightsOn.next()
 lightsOn.next()
 lightsOn.next()
 
-
-
 /* ==========类型方法例子========== STA */
 struct LevelTracker {
     static var highestUnlockedLevel = 1
@@ -303,7 +301,7 @@ if 🐑.tracker.advanceToLevel(5){
 }
 /* ==========类型方法例子========== END */
 /* 方法相关=============================== END */
-
+// 最终final
 
 
 
