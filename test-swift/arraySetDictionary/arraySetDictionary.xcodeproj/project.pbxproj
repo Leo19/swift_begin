@@ -49,6 +49,7 @@
 		48C858301BFB337200305803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C8583C1BFB339900305803 /* arrSetDic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = arrSetDic.playground; sourceTree = "<group>"; };
 		48CE2C211BFF008D00707798 /* Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumeration.playground; sourceTree = "<group>"; };
+		48CF44DE1CB791B900C1D6E3 /* OptionalDict.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalDict.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 				48C8581A1BFB337200305803 /* Info.plist */,
 				48C8583C1BFB339900305803 /* arrSetDic.playground */,
 				48CE2C211BFF008D00707798 /* Enumeration.playground */,
+				48CF44DE1CB791B900C1D6E3 /* OptionalDict.playground */,
 			);
 			path = arraySetDictionary;
 			sourceTree = "<group>";

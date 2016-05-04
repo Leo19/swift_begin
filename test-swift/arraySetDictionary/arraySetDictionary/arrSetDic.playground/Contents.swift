@@ -114,7 +114,7 @@ print(fruits1)
 let chars = "c"
 let fruits2 = fruits.map({
     
-    (String fn) in
+    (fn) in
     fn.lowercaseString.characters.reverse()
 })
 
@@ -190,6 +190,7 @@ print(flattened)
 let reduced = nestedArray.reduce([], combine: {
     $0 + $1
 })
+print("this is a split line========")
 print(reduced)
 
 // 将optional的数组转化成非optional的是flatMap擅长的
@@ -210,10 +211,11 @@ print(stillOptional)
 // 这段是推特上一位朋友写的更加复杂也更简略的代码
 let newDict = ["a":"b"].reduce(["c":"d"], combine: {
     (var dict,var pair) in
-    // 其实是个trick，等于dict["a"]="b"
+    // 其实是个trick，等于dict["a"]="b" 直接增加了一项
     dict[pair.0] = pair.1
     return dict
 })
+print(newDict)
 
 // 再次证明了 $0 是返回值 $1 是参数其实
 let doubleArray = [1,4].reduce([Int](), combine: {
@@ -223,15 +225,73 @@ let doubleArray = [1,4].reduce([Int](), combine: {
     return ret
 })
 print(doubleArray)
+
+// 用reduce实现一个map功能
+let arr5 = [1,4,8,2,5,9]
+let ret = arr5.reduce([], combine: {
+    (a: [Int], element: Int) -> [Int] in
+    print("a: \(a)")
+    var t = Array(a)
+    print("t: \(t)")
+    t.append(element * 2)
+    return t
+})
+
+
+// reduce方法一次求出数组中奇数的和、以及偶数的积
+let tup = arr5.reduce((0,1), combine: {
+    (a: (Int, Int) , element: Int) -> (Int,Int) in
+    if (element % 2 == 0) {
+        return (a.0,a.1 * element)
+    } else {
+        return (a.0 + element, a.1)
+    }
+})
+print(tup)
+
+// 用reduce方法找出数组中最大值
+let arr6 = [1,2,6,4,5]
+let max: Int = arr6.reduce(0, combine: {
+    (a: Int, element: Int) -> Int in
+    return a > element ? a : element
+})
+print("max: \(max)")
+
+// 高阶函数可以链式调用，求一个数组中偶数的平方和
+let arr7 = [1,2,4,7,9]
+let square: Int = arr7.filter({
+    $0 % 2 == 0
+}).map({
+    $0 * $0
+}).reduce(0, combine: {
+    return $0 + $1
+})
+print(square)
+
 /*===================== 结论 ===================*/
 /*如果有一个数组需要给每一个元素加前缀或后缀用flatMap()*/
 /*如果有一个嵌套的或者对象类型的数组有可能要一次性的在值的*/
 /*前后做操作就用reduce()如果将其他值和数值或数组合并就用join()*/
 
 
+/* 高阶函数：                          */
+/* 1.如果一个函数接受一个多多个函数当做参数 */
+/* 2.并且可以把一个函数当做返回值         */
+/* 高阶函数可以和对象一样对主体进行封装，可以用高阶函数来隐藏私有变量 */
+/*  */
+func getClock() -> () -> Int {
+    var count: Int = 0
+    let getCount = {
+        () -> Int in
+        count = count + 1;
+        return count;
+    }
+    return getCount
+}
 
-
-
+let t1 = getClock()
+t1()
+t1()
 
 
 
